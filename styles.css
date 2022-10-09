@@ -2,15 +2,16 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(172, 120, 120);
+  background-color: rgb(0, 0, 0);
 }
 #main {
-  width: 280px;
-  height: 300px;
+  width: 446px;
+  height: 440px;
   background-color: rgb(0, 0, 0);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   border-radius: 11px;
   margin: auto;
+  margin-top: 56px;
 }
 
 input {
@@ -24,18 +25,19 @@ input {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   border: none;
-  margin: 10px 5px 15px 5px;
+  margin: 20px 5px 15px 5px;
   text-align: right;
   height: 80px;
+  font-size: 30px;
   border-radius: 11px;
-  /* box-shadow: 0px 1px 5px 1px rgba(255, 145, 0, 0.952); */
 }
 
 .btn {
   background-color: rgba(255, 145, 0, 0.733);
-  width: 57px;
+  width: 97px;
+  height: 68px;
   border: none;
-  border-radius: 20px;
+  border-radius: 50px;
   box-shadow: 0px 0px 1.5px 0.5px rgba(250, 249, 246, 0.493);
 }
 
