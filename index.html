@@ -4,7 +4,95 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Calculator</title>
   </head>
-  <body></body>
+  <body>
+    <div id="main">
+      <form name="calculator">
+        <input type="text" name="ip" placeholder="0" id="IP" /> <br />
+        <input
+          class="btn"
+          type="button"
+          value="1"
+          onclick="calculator.ip.value+=1"
+        />
+        <input
+          class="btn"
+          type="button"
+          value="2"
+          onclick="calculator.ip.value+=2"
+        />
+        <input
+          class="btn"
+          type="button"
+          value="3"
+          onclick="calculator.ip.value+=3"
+        />
+        <input class="btn" type="button" value="+" onclick="add()" />
+        <br />
+        <input
+          class="btn"
+          type="button"
+          value="4"
+          onclick="calculator.ip.value+=4"
+        />
+        <input
+          class="btn"
+          type="button"
+          value="5"
+          onclick="calculator.ip.value+=5"
+        />
+        <input
+          class="btn"
+          type="button"
+          value="6"
+          onclick="calculator.ip.value+=6"
+        />
+        <input class="btn" type="button" value="-" onclick="sub()" />
+        <br />
+        <input
+          class="btn"
+          type="button"
+          value="7"
+          onclick="calculator.ip.value+=7"
+        />
+        <input
+          class="btn"
+          type="button"
+          value="8"
+          onclick="calculator.ip.value+=8"
+        />
+        <input
+          class="btn"
+          type="button"
+          value="9"
+          onclick="calculator.ip.value+=9"
+        />
+        <input class="btn" type="button" value="/" onclick="division()" />
+        <br />
+        <input
+          class="btn"
+          type="button"
+          value="c"
+          onclick="calculator.ip.value=''"
+        />
+        <input
+          class="btn"
+          type="button"
+          value="0"
+          onclick="calculator.ip.value+=0"
+        />
+        <input
+          class="btn"
+          type="button"
+          value="="
+          onclick="calculator.ip.value=eval(calculator.ip.value)"
+        />
+        <input class="btn" type="button" value="x" onclick="multiply()" />
+        <br />
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
